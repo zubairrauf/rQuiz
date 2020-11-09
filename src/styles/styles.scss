@@ -2,6 +2,29 @@ body {
     background: lightblue;
 }
 
+.container {
+    border: solid 1px grey;
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 .icon_car {
     fill: red;
+}
+
+.buttons {
+    display: flex;
+    
+}
+.button {
+    text-align: center;
+    list-style: none;
+    border: solid 1px grey;
+    padding: 5px 10px;
+    margin: 5px;
 }
